@@ -30,6 +30,8 @@
 #define HOST_ID SPI2_HOST
 #elif CONFIG_SPI3_HOST
 #define HOST_ID SPI3_HOST
+#else
+#define HOST_ID SPI2_HOST
 #endif
 
 static const int SPI_Command_Mode = 0;
